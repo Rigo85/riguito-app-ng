@@ -1,6 +1,8 @@
-<div style="text-align: center;">
-<!--	<h1>Presiona cualquier tecla</h1>-->
-	<div *ngIf="randomImage">
-		<img [src]="'data/images/' + randomImage" [alt]="randomImage" style="max-width: 100%; height: auto;" />
+<!-- HTML -->
+<div class="image-wrapper">
+	<!--	<h1>Presiona cualquier tecla</h1>-->
+	<div *ngIf="randomImage" class="image-container">
+		<img [src]="'data/images/' + randomImage" [alt]="randomImage" class="full-height-image" />
 	</div>
 </div>
+
