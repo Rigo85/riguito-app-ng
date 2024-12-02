@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
 					this.errorMessage = response.error; // Manejar el mensaje de error
 				} else {
 					this.data = response; // Datos cargados correctamente
-					// console.info(this.data);
+					console.info(this.data);
 				}
 			},
 			error: (error) => {
